@@ -20,7 +20,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 |  A drink option can be selected | "Beer"  | "Beer"  |
 |  An order can be submitted |  -click submit- | "Your order has been accepted"  |
 |  Delivery or Pickup can be selected | -radio select Delivery-  | "Your order is setup for Delivery"  |
-|   |   |   |
+|   |   |   ||
 
 ## Setup/Installation Requirements
 
