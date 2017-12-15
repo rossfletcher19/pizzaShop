@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Lighthouse Pizza_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A Simple Ordering form for a pizza shop, 12/15/17_
 
-#### By _**{List of contributors}**_
+#### By _**Ross Fletcher**_
 
 ## Description
 
