@@ -72,4 +72,12 @@ $(document).ready(function() {
       $("#home").hide();
       $("#showOrder").hide();
   })
+
+  $("#goToOrder").click(function(event) {
+      $("#placeOrder").fadeIn();
+      $("#contact").hide();
+      $("#menu").hide();
+      $("#home").hide();
+      $("#showOrder").hide();
+  })
 })
