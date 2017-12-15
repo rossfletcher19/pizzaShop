@@ -26,7 +26,8 @@ _This is a simple web app that allows a user to create a pizza order and get a c
 
 * _Download or clone from Github @ https://github.com/rossfletcher19/pizzaShop _
 * _Open index.html in a editor to edit or in a web browser to view._
-* _Also can be viewed at the gh-pages - rossfletcher19.github.io/pizzaShop
+* _Also can be viewed at the gh-pages - https://rossfletcher19.github.io/pizzaShop/
+
 
 ## Known Bugs
 
