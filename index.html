@@ -51,17 +51,54 @@
                   <li></li>
                   <li></li>
                 </ul>
-
               </div>
             </div>
           </div>
           <div class="col-md-9" id="placeOrder">
             <div class="panel panel-primary">
               <div class="panel-heading">
-
+                <h4>You've come to the right place to order!</h4>
               </div>
               <div class="panel-body">
-
+                <form id="orderForm">
+                <div class="form-group">
+                  <label for="size" class="choiceLabel">Select your pizza size:</label>
+                  <select class="form-control" id="size">
+                    <option value="">Select Size</option>
+                    <option value="5">Personal/Mini</option>
+                    <option value="8">Small</option>
+                    <option value="12">Medium</option>
+                    <option value="18">Large</option>
+                    <option value="25">Party</option>
+                  </select>
+                  <label for="topping" class="choiceLabel">Select your Combo</label>
+                  <select class="form-control" id="topping">
+                    <option value="">Select Combo</option>
+                    <option value="17">Margarita</option>
+                    <option value="13">Veggie</option>
+                    <option value="13">Hawaiian</option>
+                    <option value="10">Pepperoni</option>
+                    <option value="15">Mear Lovers</option>
+                    <option value="14">Supreme</option>
+                  </select>
+                  <label for="drink" class="choiceLabel">Select your drink:</label>
+                  <select class="form-control" id="drink">
+                    <option value="">Select Drink</option>
+                    <option value="2.50">Soda Pop - Regular</option>
+                    <option value="3.50">Soda Pop - Large</option>
+                    <option value="5.00">Beer - Pint</option>
+                    <option value="12.00">Beer - Pitcher</option>
+                    <option value="2.00">Juice Box</option>
+                    <option value="2.00">Milk Carton</option>
+                  </select>
+                  <label for="name" class="inputLabel">Your Name</label>
+                  <input id="name" class="form-control" type="text">
+                  <label for="phone" class="inputLabel">Your Phone Number</label>
+                  <input id="phone" class="form-control" type="text">
+                  <br>
+                  <button type="submit" name="button" class="btn btn-success">Place Your Order!</button>
+                </div>
+                </form>
               </div>
             </div>
           </div>
