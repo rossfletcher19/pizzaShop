@@ -1,10 +1,10 @@
-/*#menu {
+#menu {
   display: none;
-}*/
+}
 
-/*#placeOrder {
+#placeOrder {
   display: none;
-}*/
+}
 
 #showOrder {
   display: none;
@@ -12,4 +12,24 @@
 
 #contact {
   display: none;
+}
+
+.wrapper {
+  margin-top: 200px;
+}
+
+.jumbotron {
+  background-image: url(../img/lhHeader.jpg);
+  background-size: 100% 100%;
+}
+
+body {
+  /*background-image: url(../img/lh.gif);
+  background-repeat: no-repeat;*/
+}
+
+.lhBG {
+  height: 500px;
+  width: 500px;
+  float: right;
 }

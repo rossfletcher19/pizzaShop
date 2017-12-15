@@ -35,7 +35,41 @@ $(document).ready(function() {
 
     $("#orderAmt").text(newOrder.order());
     $("#thankYou").text(newCust.custInfo());
-    $("#showOrder").show();
+    $("#showOrder").fadeIn();
+    $("#placeOrder").hide();
 
+  })
+
+  $("#homeB").click(function(event) {
+      $("#home").fadeIn();
+      $("#menu").hide();
+      $("#placeOrder").hide();
+      $("#showOrder").hide();
+      $("#contact").hide();
+
+  })
+
+  $("#menuB").click(function(event) {
+      $("#menu").fadeIn();
+      $("#home").hide();
+      $("#placeOrder").hide();
+      $("#showOrder").hide();
+      $("#contact").hide();
+  })
+
+  $("#orderB").click(function(event) {
+      $("#placeOrder").fadeIn();
+      $("#menu").hide();
+      $("#home").hide();
+      $("#showOrder").hide();
+      $("#contact").hide();
+  })
+
+  $("#contactB").click(function(event) {
+      $("#contact").fadeIn();
+      $("#placeOrder").hide();
+      $("#menu").hide();
+      $("#home").hide();
+      $("#showOrder").hide();
   })
 })
