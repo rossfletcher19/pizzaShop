@@ -8,6 +8,20 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+## Specs
+
+|  Behavior |  Input |  Output |
+|---|---|---|
+|  A name can be accepted and recorded | "Ross"  | "Ross"  |
+|  A phone # can be accepted and recorded  |  "867-5309" | "867-5309"  |
+|  An address can be accepted and recorded |  "1234 PizzaPie Way" | "1234 PizzaPie Way"  |
+|  Pizza size can be selected | "Large"  | "Large"  |
+|  Toppings can be selected |  "Sausage" | "Sausage"  |
+|  A drink option can be selected | "Beer"  | "Beer"  |
+|  An order can be submitted |  -click submit- | "Your order has been accepted"  |
+|  Delivery or Pickup can be selected | -radio select Delivery-  | "Your order is setup for Delivery"  |
+|   |   |   |
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
