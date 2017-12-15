@@ -30,10 +30,10 @@ $(document).ready(function() {
     var inputName = $("#name").val();
     var inputPhone = $("#phone").val();
 
-    var newOrder = new Order (selectedSize, selectedTopping, selectedDrink);
+    var newOrder = new Pizza (selectedSize, selectedTopping, selectedDrink);
     var newCust = new Cust (inputName, inputPhone);
 
-    $("#orderDetails").text(newOrder.order());
+    $("#orderAmt").text(newOrder.order());
     $("#thankYou").text(newCust.custInfo());
     $("#showOrder").show();
 
