@@ -28,8 +28,6 @@ _This is a simple web app that allows a user to create a pizza order and get a c
 * _Open index.html in a editor to edit or in a web browser to view._
 * _Also can be viewed at the gh-pages_ - https://rossfletcher19.github.io/pizzaShop/
 
-
-
 ## Known Bugs
 
 _None known of._
