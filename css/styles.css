@@ -26,11 +26,14 @@
 }
 
 body {
-  background:url('../img/lh.gif') no-repeat;
-  -webkit-background-size:cover;
+  background:url('../img/lh.gif') no-repeat right bottom;
+  background-size: 700px 900px;
+  /* -webkit-background-size:cover;
   -moz-background-size:cover;
-  -o-background-size: cover;
-  background-size: auto;
+  -o-backgrousnd-size: cover; */
+  /* background-size: auto; */
+
+
 }
 
 p {
@@ -47,12 +50,12 @@ ul {
   font-weight: bold;
 }
 
-.lhBG {
-  /*height: 600px;
-  width: 600px;*/
-  /*float: right;
-  z-index: -1;*/
-}
+/* .lhBG {
+  height: 600px;
+  width: 600px;
+  float: right;
+  z-index: -1;
+} */
 
 .panel-transparent {
   background: none;
